@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.95696d12.css",
+    "main.js": "/static/js/main.9b0e6c95.js",
+    "static/media/bootse koda.webp": "/static/media/bootse koda.b265dba831c82b9b6d08.webp",
+    "static/media/shoes1.webp": "/static/media/shoes1.dd4030ad95f36dfbbbac.webp",
+    "static/media/allstar2.webp": "/static/media/allstar2.a715a481be89403cb320.webp",
+    "static/media/koda4.webp": "/static/media/koda4.2caeb2ca55b5b6ac7875.webp",
+    "static/media/shoesblack (1).jpg": "/static/media/shoesblack (1).a4db83bdbb70acb3b08d.jpg",
+    "index.html": "/index.html",
+    "main.95696d12.css.map": "/static/css/main.95696d12.css.map",
+    "main.9b0e6c95.js.map": "/static/js/main.9b0e6c95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95696d12.css",
+    "static/js/main.9b0e6c95.js"
+  ]
+}

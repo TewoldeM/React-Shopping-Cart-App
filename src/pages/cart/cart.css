@@ -1,0 +1,77 @@
+.App{
+  background-color: aliceblue;
+}
+.cart{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cart .empty{
+  color: #555555; /* Set the text color */
+  background-color: #c4bebe; /* Set the background color */
+  padding: 5px;
+  border-radius: 5px;
+}
+.cart .additional-button{
+  background-color: #131413; /* Set the background color */
+  color: #e8e4e4; /* Set the text color */
+  padding: 10px 20px; /* Add padding around the content */
+  border: none; /* Remove the border */
+  border-radius: 4px; /* Apply border radius */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  font-size: 16px; /* Set the font size */
+}
+.cart .additional-button:hover{
+background-color: #282f28;
+}
+.CartItem{
+  width: 700px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  margin: 30px;
+}
+.CartItem img{
+  width: 200px;
+}
+.CartItem .description{
+  width: 100%;
+  font-size: 30px;
+}
+.countHandler input{
+  width: 40px;
+  text-align:center;
+  font-weight:bolder;
+}
+.checkout button{
+  width:150px;
+  height:50px;
+  background-color:rgb(19,19,19);
+  color:white;
+  border:none;
+  border-radius:8px;
+  margin:10px;
+  cursor:pointer;
+
+}
+@media (max-width: 768px) {
+  .cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+  .CartItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8rem;
+  }
+  .CartItem .description{
+
+  }
+}
